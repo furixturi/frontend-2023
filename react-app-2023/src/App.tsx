@@ -7,6 +7,7 @@ const listGroupItems = ["New York", "San Francisco", "Tokyo", "London"];
 function App() {
   // state hooks
   const [selectedCity, setSelectedCity] = useState("");
+  const [isAlertVisible, setAlertVisibility] = useState(false);
 
   return (
     <div>
@@ -14,13 +15,22 @@ function App() {
       <ListGroup
         items={listGroupItems}
         heading="Cities"
-        onSelectItem={(item) => setSelectedCity(item)}
+        onSelectItem={(item) => {
+          setSelectedCity(item);
+          setAlertVisibility(true);
+        }}
       />
-      {!!selectedCity && (
-        <Alert color="success">
+      <Alert isVisible={isAlertVisible} color="success">
+        <span>
           Yay, let's go to <b>{selectedCity}</b>!!
-        </Alert>
-      )}
+        </span>
+        <button
+          type="button"
+          className="btn-close"
+          aria-label="Close"
+          onClick={() => setAlertVisibility(false)}
+        ></button>
+      </Alert>
     </div>
   );
 }
