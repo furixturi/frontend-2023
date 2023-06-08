@@ -88,6 +88,8 @@ import "bootstrap/dist/css/bootstrap.css";
 
 - Create the component folder and files
 - Go to Bootstrap's website to grab the HTML of [ListGroup](https://getbootstrap.com/docs/4.0/components/list-group/)
+- Use state hook to dynamically set active item style
+- Use props to pass in items and heading from parent component
 
 ### Form validation
 
