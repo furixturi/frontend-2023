@@ -14,7 +14,7 @@ interface Props {
     | "dark";
 }
 
-const Alert = ({ children, isVisible = false, color = "primary" }: Props) => {
+const Alert = ({ children, isVisible = true, color = "primary" }: Props) => {
   // state hooks
   return (
     <div
