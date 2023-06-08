@@ -97,8 +97,11 @@ import "bootstrap/dist/css/bootstrap.css";
 
 #### Alert component
 
+This simple component showcases the following:
+
 - Use the childern prop so we can pass in html markup
 - How to define a struct kind of prop with "|"
+- Control its visibility from parent while using Bootstrap transition animation
 
 ### Form validation
 
