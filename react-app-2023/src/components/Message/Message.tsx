@@ -1,5 +1,8 @@
-function Message() {
-    return <h1>Hello World</h1>;
+interface Props {
+  message?: string;
+}
+function Message({ message = "Hello World!" }: Props) {
+  return <h1>{message}</h1>;
 }
 
 export default Message;
