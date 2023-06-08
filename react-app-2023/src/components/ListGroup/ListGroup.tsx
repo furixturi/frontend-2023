@@ -22,9 +22,7 @@ function ListGroup({
         {items.map((item, index) => (
           <li
             className={
-              index === selectedIndex
-                ? "list-group-item active"
-                : "list-group-item"
+              "list-group-item" + (index === selectedIndex ? " active" : "")
             }
             key={index}
             onClick={() => {
