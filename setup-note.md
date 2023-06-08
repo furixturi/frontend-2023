@@ -97,7 +97,8 @@ import "bootstrap/dist/css/bootstrap.css";
 
 #### Alert component
 
-Use the childern prop which can be a ReactNode so that the enclosed html tags can be passed in and rendered in the component.
+- Use the childern prop so we can pass in html markup
+- How to define a struct kind of prop with "|"
 
 ### Form validation
 
