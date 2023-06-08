@@ -17,7 +17,7 @@ Grab the official LTS installer from [here](https://nodejs.org/en/download) and 
   - [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)
 - React code snippet
   - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-    - type "rafce" to generate react component quickly
+    - type `rafce` to generate react component quickly
 - Format on save
   - Go to settings with `cmd + ,`, search for and enable "Editor: Format On Save"
   - If it didn't work, check if the default formatter is set
