@@ -1,7 +1,9 @@
+import { FaBeer } from "react-icons/fa";
+import { BiBeer } from "react-icons/bi";
+import { useState } from "react";
+import Alert from "./components/Alert";
 import Message from "./components/Message";
 import ListGroup from "./components/ListGroup";
-import Alert from "./components/Alert";
-import { useState } from "react";
 
 const listGroupItems = ["New York", "San Francisco", "Tokyo", "London"];
 function App() {
@@ -11,6 +13,10 @@ function App() {
 
   return (
     <div>
+      <div>
+        <BiBeer />
+        <FaBeer />
+      </div>
       <Message message="Where shall we go next?" />
       <ListGroup
         items={listGroupItems}
