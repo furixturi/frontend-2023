@@ -76,7 +76,7 @@ import "bootstrap/dist/css/bootstrap.css";
     - the component's `.tsx`
     - a `index.tsx` to export the component as default
 
-#### A dummy hello world component
+#### A simple message component
 
 - Create a folder `Message`
 - Create a tsx component that renders the hello world message `Message.tsx`
