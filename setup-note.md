@@ -81,6 +81,7 @@ import "bootstrap/dist/css/bootstrap.css";
 - Create a folder `Message`
 - Create a tsx component that renders the hello world message `Message.tsx`
   - We can see how the JSX is converted to JavaScript in `https://babeljs.io/repl`
+- Use props to enable passing in the message from a parent component, make it optional with a default message
 - Create a `index.tsx` to export it
 - import and render `"./components/Message"` in `App.tsx`
 
