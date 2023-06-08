@@ -10,11 +10,14 @@ Grab the official LTS installer from [here](https://nodejs.org/en/download) and 
 
 [VSCode](https://code.visualstudio.com/)
 
-#### VSCode Extensions
+#### VSCode Extensions and Setup
 
 - Code formatter:
   - [Prettier](https://prettier.io/)
   - [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)
+- React code snippet
+  - [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+    - type "rafce" to generate react component quickly
 - Format on save
   - Go to settings with `cmd + ,`, search for and enable "Editor: Format On Save"
   - If it didn't work, check if the default formatter is set
@@ -91,6 +94,10 @@ import "bootstrap/dist/css/bootstrap.css";
 - Go to Bootstrap's website to grab the HTML of [ListGroup](https://getbootstrap.com/docs/4.0/components/list-group/)
 - Use state hook to dynamically set active item style
 - Use props to pass in items and heading from parent component
+
+#### Alert component
+
+Use the childern prop which can be a ReactNode so that the enclosed html tags can be passed in and rendered in the component.
 
 ### Form validation
 
